@@ -27,7 +27,8 @@ const SignUp = () => {
         <div className="flex flex-col items-center justify-center min-w-96 mx-auto">
             <div className="w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
                 <h1 className="text-3xl font-semibold text-center text-gray-300">
-                    Sign Up <span className="text-blue-500"> PulseChat</span>
+                    Sign Up{" "}
+                    <span className="text-black font-bold"> PulseChat</span>
                 </h1>
 
                 <form onSubmit={handlerSubmit}>
@@ -117,7 +118,7 @@ const SignUp = () => {
                     />
 
                     <Link
-                        className="text-sm hover:underline hover:text-blue-600 mt-2 inline-block"
+                        className="text-sm hover:underline hover:text-black mt-2 inline-block"
                         to="/login"
                     >
                         Already have an account?
