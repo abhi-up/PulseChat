@@ -88,10 +88,6 @@ npm start
 
 Contributions are welcome! Please feel free to submit any issues or pull requests.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgements
 
 This project was inspired by the need for a real-time chat application.
