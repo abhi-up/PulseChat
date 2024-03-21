@@ -36,58 +36,6 @@ PulseChat is a real-time chat application built using the MERN (MongoDB, Express
 
 ![Conversations](frontend/public/images/conversation.png)
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/pulsechat.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd <folder_name>
-```
-
-3. Install dependencies for both the client and server:
-
-```bash
-cd client
-npm install
-cd ../server
-npm install
-```
-
-4. Set up environment variables:
-    - Create a .env file in the server directory.
-    - Define the following variables in the .env file:
-
-```makefile
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-```
-
-5. Start the server:
-
-```sql
-npm start
-```
-
-6. Start the client:
-
-```bash
-cd ../client
-npm start
-```
-
-7. Open your browser and navigate to http://localhost:3000 to use PulseChat.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit any issues or pull requests.
-
 ## Acknowledgements
 
 This project was inspired by the need for a real-time chat application.
